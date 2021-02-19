@@ -1,0 +1,19 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "Node.js CLI pour obtenir la météo d'une ville.",
+  "main": "index.js",
+  "bin": "./bin/weather.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Florian Levavasseur",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "commander": "^7.1.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.3.3"
+  }
+}
